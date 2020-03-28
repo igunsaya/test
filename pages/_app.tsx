@@ -1,5 +1,8 @@
+import { AppProps } from "next/app";
 import "../css/tailwind.css";
 
-import Home from "./home";
+function MyApp({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />;
+}
 
-export default () => <Home />;
+export default MyApp;

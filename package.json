@@ -2,7 +2,7 @@
   "name": "phgas_next",
   "version": "1.0.0",
   "description": "",
-  "main": "_app.js",
+  "main": "pages/index.tsx",
   "scripts": {
     "dev": "next",
     "build": "next build",
