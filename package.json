@@ -7,14 +7,18 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
-  },  
+    "export": "yarn run build && next export"
+  },
   "keywords": [],
-  "author": "",
+  "author": "igunsaya <igunsaya@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "next": "^9.3.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2"
+  },
+  "repository": "git@github.com:igunsaya/test.git"
 }
